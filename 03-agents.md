@@ -390,11 +390,11 @@ az login --tenant <tenant-id>
 `invokeAgent.py` 파일 예시:
 
 ```python
-# Azure AI Foundry Agent Invocation using Activity Protocol
+# Microsoft Foundry Agent Invocation using Activity Protocol
 from openai import OpenAI
 from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 
-# TODO: Update these values with your actual Azure AI Foundry details
+# TODO: Update these values with your actual Microsoft Foundry details
 # Get these from: https://ai.azure.com → Your Project → Deployments
 FOUNDRY_ENDPOINT = "https://<foundry-resource-name>.services.ai.azure.com/api/projects/<project-name>"
 AGENT_NAME = "ModelRouterAgent"  # 호출할 에이전트 이름

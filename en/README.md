@@ -92,8 +92,8 @@ Each module is structured for independent practice:
 
 ## 📚 Reference Documentation
 
-- [Azure AI Foundry Documentation](https://ai.azure.com/docs)
-- [What is Azure AI Foundry](https://ai.azure.com/docs/what-is-azure-ai-foundry)
+- [Microsoft Foundry Documentation](https://ai.azure.com/docs)
+- [What is Microsoft Foundry](https://ai.azure.com/docs/what-is-azure-ai-foundry)
 - [Get Started with Code](https://ai.azure.com/docs/quickstarts/get-started-code)
 - [Foundry Agent Service at Ignite 2025](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/foundry-agent-service-at-ignite-2025-simple-to-build-powerful-to-deploy-trusted-/4469788)
 - [Agents Overview](https://ai.azure.com/docs/agents/overview)

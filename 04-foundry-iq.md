@@ -369,7 +369,7 @@ Microsoft Foundry와 AI Search 간의 권한을 설정합니다.
 4. **텍스트 벡터화 설정**
 
    ```
-   Kind: Azure AI Foundry
+   Kind: Microsoft Foundry
    Subscription: [사용 중인 구독]
    Foundry project: proj-default
    Model deployment: text-embedding-3-large

@@ -1,4 +1,4 @@
-# Azure AI Foundry Workflow Invocation using Foundry SDK
+# Microsoft Foundry Workflow Invocation using Foundry SDK
 # Before running: pip install --pre azure-ai-projects>=2.0.0b1
 from azure.identity import DefaultAzureCredential
 from azure.ai.projects import AIProjectClient

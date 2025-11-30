@@ -1,8 +1,8 @@
-# Azure AI Foundry Agent Invocation using Activity Protocol
+# Microsoft Foundry Agent Invocation using Activity Protocol
 from openai import OpenAI
 from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 
-# TODO: Update these values with your actual Azure AI Foundry details
+# TODO: Update these values with your actual Microsoft Foundry details
 # Get these from: https://ai.azure.com → Your Project → Deployments
 FOUNDRY_ENDPOINT = "https://foundry-junwoo.services.ai.azure.com/api/projects/proj-default"
 AGENT_NAME = "ModelRouterAgent"

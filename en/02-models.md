@@ -41,7 +41,7 @@ You can explore various AI models in the Discover section of the Foundry portal.
 
 2. **Check Model Leaderboard**
    - Click the **View leaderboard** option.
-   - You can review performance metrics for various models:
+   - Review performance metrics for various models:
      - Quality scores
      - Latency
      - Cost
@@ -56,8 +56,8 @@ You can explore various AI models in the Discover section of the Foundry portal.
 
 ### 💡 Tips
 
-- The leaderboard is updated regularly, so check for the latest models
-- Review capabilities and limitations on each model's detail page
+- Check the leaderboard regularly for the latest model updates
+- Review each model's capabilities and limitations on its detail page
 
 ---
 
@@ -259,4 +259,4 @@ Model deployment is complete! Now let's use these models to build agents:
 
 ---
 
-[← Previous: Environment Setup](./01-setup.md) | [Main](./README.md) | [Next: Agent Development →](./03-agents.md)
+[← Previous: Environment Setup](./01-setup.md) | [Home](./README.md) | [Next: Agent Development →](./03-agents.md)

@@ -69,7 +69,7 @@ Microsoft Foundry is an integrated platform designed for AI application developm
 
 1. **Search for Microsoft Foundry Resource**
    - Search for "Microsoft Foundry" in the Azure Portal top search bar.
-   - Or directly access the [Microsoft Foundry Portal](https://ai.azure.com).
+   - Alternatively, you can directly access the [Microsoft Foundry Portal](https://ai.azure.com).
    
    ![Search for Microsoft Foundry](../assets/01-04-foundry-search.png)
 
@@ -152,4 +152,4 @@ Environment setup is complete! Now proceed to the next module:
 
 ---
 
-[← Main](./README.md) | [Next: Models and Deployment →](./02-models.md)
+[← Home](./README.md) | [Next: Models and Deployment →](./02-models.md)

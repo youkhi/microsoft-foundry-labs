@@ -50,7 +50,7 @@ AI 에이전트를 프로덕션에 배포하기 전에 다음 사항을 검증�
 | **Online Monitoring** | 실시간 성능 모니터링 | 운영 중 |
 | **Human Evaluation** | 사람이 직접 평가 | 품질 검증 |
 
-### Azure AI Foundry의 평가 기능
+### Microsoft Foundry의 평가 기능
 
 Foundry는 다음을 자동화합니다:
 - ✅ 테스트 데이터 생성 (Synthetic generation)

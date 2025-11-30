@@ -29,7 +29,7 @@ Approximately 30 minutes
 
 ### What is a Microsoft Foundry Agent?
 
-An AI Agent is an intelligent system that understands user requests and performs tasks using necessary tools.
+A Microsoft Foundry Agent is an intelligent system that understands user requests and performs tasks using appropriate tools and knowledge.
 
 ### Key Components
 
@@ -89,24 +89,24 @@ Create an agent that intelligently selects models using Model Router.
 
 4. **Test Agent**
 
-   **Try these questions in the Chat tab:**
+   **Test with these questions in the Chat tab:**
 
    ```
    User: Hello
    ```
-   → Uses lightweight model for simple greeting
+   → Routes to a lightweight model for simple greetings
 
    ```
    User: What data were you trained on?
    ```
-   → Responds with model information using base model
+   → Uses the base model to respond with model information
 
    ```
    User: Create a hands-on guide for microsoft foundry new portal. 
    I need a guide that covers foundry models, model-router, foundry agents, 
    foundry tools, foundry knowledge, foundry control plane all in the foundry portal
    ```
-   → Uses high-performance model for complex document generation
+   → Routes to a high-performance model for complex document generation
    
    ![Test in Chat tab](../assets/03-05-agent-chat-test.png)
 
@@ -210,17 +210,17 @@ Create an agent that finds information from uploaded documents using file search
 
 6. **Test Agent**
 
-   **Try these questions in the Chat tab:**
+   **Test with these questions in the Chat tab:**
 
    ```
    User: Recommend good places for surfing
    ```
-   Expected response: Recommend Yangyang Surfy Beach and Jeju Jungmun Saekdal Beach
+   Expected response: Recommendations for Yangyang Surfy Beach and Jeju Jungmun Saekdal Beach
 
    ```
    User: Find beaches good for healing
    ```
-   Expected response: Introduce Gangneung Gyeongpo Beach and Taean Mallipo Beach
+   Expected response: Information about Gangneung Gyeongpo Beach and Taean Mallipo Beach
 
    ```
    User: Where can I surf year-round?
@@ -390,11 +390,11 @@ az login --tenant <tenant-id>
 Example `invokeAgent.py` file:
 
 ```python
-# Azure AI Foundry Agent Invocation using Activity Protocol
+# Microsoft Foundry Agent Invocation using Activity Protocol
 from openai import OpenAI
 from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 
-# TODO: Update these values with your actual Azure AI Foundry details
+# TODO: Update these values with your actual Microsoft Foundry details
 # Get these from: https://ai.azure.com → Your Project → Deployments
 FOUNDRY_ENDPOINT = "https://<foundry-resource-name>.services.ai.azure.com/api/projects/<project-name>"
 AGENT_NAME = "ModelRouterAgent"  # Name of agent to invoke
@@ -504,4 +504,4 @@ You've created various agents! Now let's build an advanced knowledge base using 
 
 ---
 
-[← Previous: Models and Deployment](./02-models.md) | [Main](./README.md) | [Next: Foundry IQ →](./04-foundry-iq.md)
+[← Previous: Models and Deployment](./02-models.md) | [Home](./README.md) | [Next: Foundry IQ →](./04-foundry-iq.md)
