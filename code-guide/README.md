@@ -36,9 +36,9 @@ Python 코드와 Azure CLI를 사용하여 Microsoft Foundry 리소스를 자동
 
 ## 🔧 추가 스크립트
 
-- **[invokeAgent.py](./invokeAgent.py)** - 배포된 Agent를 외부에서 호출하는 예제
-- **[invokeWorkflow.py](./invokeWorkflow.py)** - 배포된 Workflow를 프로그래밍 방식으로 실행하는 예제
-- **[knowledge-base.json](./knowledge-base.json)** - FileSearchAgent 실습용 샘플 데이터
+- **[invokeAgent.py](../invokeAgent.py)** - 배포된 Agent를 외부에서 호출하는 예제
+- **[invokeWorkflow.py](../invokeWorkflow.py)** - 배포된 Workflow를 프로그래밍 방식으로 실행하는 예제
+- **[knowledge-base.json](../knowledge-base.json)** - FileSearchAgent 실습용 샘플 데이터
 
 ## 🚀 시작하기
 
