@@ -567,17 +567,17 @@ Blob Storage를 직접 연결하여 자동 인덱싱되는 Knowledge Base를 생
    Chat 탭에서 다음 질문들을 테스트합니다:
 
    ```
-   사용자: PerkPlus가 커버하는 항목들을 알려줘
+   PerkPlus가 커버하는 항목들을 알려줘
    ```
    예상 답변: Health & Wellness, Professional Development, Work-Life Balance, Financial Benefits 설명
 
    ```
-   사용자: 커버하지 않는 항목 알려줘
+   커버하지 않는 항목 알려줘
    ```
    예상 답변: 개인 여행 경비, 개인 식사 비용 등 Non-Covered Items 설명
 
    ```
-   사용자: CPA 자격증이 필요한 역할을 알려줘
+   CPA 자격증이 필요한 역할을 알려줘
    ```
    예상 답변: Financial Analyst, Controller, Tax Specialist 역할 설명
    
