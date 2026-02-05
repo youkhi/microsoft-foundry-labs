@@ -85,8 +85,8 @@ Foundry IQ를 사용하기 위해 먼저 Azure AI Search 리소스를 연결해�
    Azure Portal의 검색 서비스 생성 페이지로 이동합니다:
 
    ```
-   Resource group: foundry
-   Service name: foundry<Your unique name>
+   Resource group: rg-foundry
+   Service name: aisearch-foundry<Your unique name>
    Location: Sweden Central
    Pricing tier: Basic
    ```
@@ -182,8 +182,8 @@ AI Search가 Foundry 리소스에 접근할 수 있도록 Managed Identity를 �
    ![Storage Account 생성 버튼](../assets/04-08-storage-create-button.png)
 
    ```
-   Resource group: foundry
-   Storage account name: foundry<Your unique name>
+   Resource group: rg-foundry
+   Storage account name: stfoundry<Your unique name>
    Region: Sweden Central
    Preferred storage type: Azure Blob Storage
    Primary workload: Cloud native

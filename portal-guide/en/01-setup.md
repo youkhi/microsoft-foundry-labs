@@ -42,7 +42,7 @@ A Resource Group is a logical container that groups related Azure resources for 
 3. **Enter Basic Information**
    ```
    Subscription: [Select your subscription]
-   Resource group: foundry
+   Resource group: rg-foundry
    Region: Sweden Central
    ```
    
@@ -57,7 +57,7 @@ A Resource Group is a logical container that groups related Azure resources for 
 ### ✅ Verification Checklist
 
 - Verify the Resource Group was successfully created
-- Resource Group name: `foundry`
+- Resource Group name: `rg-foundry`
 
 ---
 
@@ -79,7 +79,7 @@ Microsoft Foundry is an integrated platform designed for AI application developm
    ![Select Foundry Resource](../../assets/01-05-foundry-select-resource.png)
 
    ```
-   Resource group: foundry
+   Resource group: rg-foundry
    Name: foundry<Your unique name>
    Location: Sweden Central
    Default project name: proj-default

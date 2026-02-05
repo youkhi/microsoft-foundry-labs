@@ -85,8 +85,8 @@ First, connect an Azure AI Search resource to use Foundry IQ.
    Navigate to Azure Portal's search service creation page:
 
    ```
-   Resource group: foundry
-   Service name: foundry<Your unique name>
+   Resource group: rg-foundry
+   Service name: aisearch-foundry<Your unique name>
    Location: Sweden Central
    Pricing tier: Basic
    ```
@@ -182,8 +182,8 @@ Create a Knowledge Base using an existing AI Search Index.
    ![Storage Account creation button](../../assets/04-08-storage-create-button.png)
 
    ```
-   Resource group: foundry
-   Storage account name: foundry<Your unique name>
+   Resource group: rg-foundry
+   Storage account name: stfoundry<Your unique name>
    Region: Sweden Central
    Preferred storage type: Azure Blob Storage
    Primary workload: Cloud native

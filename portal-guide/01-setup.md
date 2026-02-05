@@ -42,7 +42,7 @@ Resource Group은 Azure 리소스를 논리적으로 그룹화하는 컨테이�
 3. **기본 정보 입력**
    ```
    Subscription: [사용 중인 구독 선택]
-   Resource group: foundry
+   Resource group: rg-foundry
    Region: Sweden Central
    ```
    
@@ -57,7 +57,7 @@ Resource Group은 Azure 리소스를 논리적으로 그룹화하는 컨테이�
 ### ✅ 확인 사항
 
 - Resource Group이 성공적으로 생성되었는지 확인
-- Resource Group 이름: `foundry`
+- Resource Group 이름: `rg-foundry`
 
 ---
 
@@ -79,7 +79,7 @@ Microsoft Foundry는 AI 애플리케이션 개발을 위한 통합 플랫폼입�
    ![Foundry Resource 선택](../assets/01-05-foundry-select-resource.png)
 
    ```
-   Resource group: foundry
+   Resource group: rg-foundry
    Name: foundry<Your unique name>
    Location: Sweden Central
    Default project name: proj-default
