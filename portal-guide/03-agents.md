@@ -92,17 +92,17 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    **Chat 탭에서 다음 질문들을 테스트해봅니다:**
 
    ```
-   사용자: 안녕
+   안녕
    ```
    → 간단한 인사이므로 경량 모델 사용
 
    ```
-   사용자: 너는 언제까지의 데이터로 학습되어있니?
+   너는 언제까지의 데이터로 학습되어있니?
    ```
    → 모델 정보 질문, 기본 모델로 답변
 
    ```
-   사용자: microsoft foundry new portal 실습을 위한 실습 가이드를 만들어줘. 
+   microsoft foundry new portal 실습을 위한 실습 가이드를 만들어줘. 
    foundry models, model-router, foundry agents, foundry tools, foundry knowledge, 
    foundry control plane 등을 모두 foundry portal에서 실습하는 가이드가 필요해
    ```
@@ -214,17 +214,17 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    **Chat 탭에서 다음 질문들을 시도해봅니다:**
 
    ```
-   사용자: 서핑하기 좋은 곳을 추천해줘
+   서핑하기 좋은 곳을 추천해줘
    ```
    예상 답변: 양양 서피비치와 제주 중문색달해변 추천
 
    ```
-   사용자: 힐링하기 좋은 해변을 찾아줘
+   힐링하기 좋은 해변을 찾아줘
    ```
    예상 답변: 강릉 경포해변과 태안 만리포해변 소개
 
    ```
-   사용자: 사계절 가능한 서핑 장소는?
+   사계절 가능한 서핑 장소는?
    ```
    예상 답변: 제주 중문색달해변
    
@@ -290,17 +290,17 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    **Chat 탭에서 최신 정보 질문을 테스트합니다:**
 
    ```
-   사용자: Microsoft Ignite 2025에서 발표된 Microsoft Foundry의 주요 신기능을 요약해줘
+   Microsoft Ignite 2025에서 발표된 Microsoft Foundry의 주요 신기능을 요약해줘
    ```
    → 웹 검색을 통해 최신 발표 내용 검색 및 요약
 
    ```
-   사용자: Foundry IQ에 대해서 좀더 자세하게 알려줘
+   Foundry IQ에 대해서 좀더 자세하게 알려줘
    ```
    → Foundry IQ의 최신 기능 및 특징 설명
 
    ```
-   사용자: 기존처럼 Azure AI Search를 사용하는 것 대비 어떤 점이 나아지는거니?
+   기존처럼 Azure AI Search를 사용하는 것 대비 어떤 점이 나아지는거니?
    ```
    → 비교 분석 및 장점 설명
    
