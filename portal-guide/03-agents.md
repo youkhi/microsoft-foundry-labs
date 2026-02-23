@@ -395,45 +395,47 @@ az login --tenant <tenant-id>
 
 > 💡 **실습 팁**: 아래 코드는 참고용입니다. 실제 실습 시에는 이 저장소의 루트 경로에 있는 `invokeAgent.py` 파일을 열어 `FOUNDRY_ENDPOINT`와 `AGENT_NAME` 값을 본인 환경에 맞게 수정한 후 실행하세요.
 
+- `FOUNDRY_ENDPOINT`는 아래 캡쳐화면 참고
+   ![foundry endpoint](../assets/03-foundry-endpoint.png)
 `invokeAgent.py` 파일 예시:
 
-```python
-# Microsoft Foundry Agent Invocation using Activity Protocol
-from openai import OpenAI
-from azure.identity import DefaultAzureCredential, get_bearer_token_provider
+   ```python
+   # Microsoft Foundry Agent Invocation using Activity Protocol
+   from openai import OpenAI
+   from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 
-# TODO: Update these values with your actual Microsoft Foundry details
-# Get these from: https://ai.azure.com → Your Project → Deployments
-FOUNDRY_ENDPOINT = "https://<foundry-resource-name>.services.ai.azure.com/api/projects/<project-name>"
-AGENT_NAME = "ModelRouterAgent"  # 호출할 에이전트 이름
-API_VERSION = "2025-11-15-preview"
+   # TODO: Update these values with your actual Microsoft Foundry details
+   # Get these from: https://ai.azure.com → Your Project → Deployments
+   FOUNDRY_ENDPOINT = "https://<foundry-resource-name>.services.ai.azure.com/api/projects/<project-name>"
+   AGENT_NAME = "ModelRouterAgent"  # 호출할 에이전트 이름
+   API_VERSION = "2025-11-15-preview"
 
-# Create OpenAI client with Azure authentication
-client = OpenAI(
-    api_key=get_bearer_token_provider(
-        DefaultAzureCredential(), 
-        "https://ai.azure.com/.default"
-    ),
-    base_url=f"{FOUNDRY_ENDPOINT}/applications/{AGENT_NAME}/protocols/openai",
-    default_query={"api-version": API_VERSION}
-)
+   # Create OpenAI client with Azure authentication
+   client = OpenAI(
+      api_key=get_bearer_token_provider(
+         DefaultAzureCredential(), 
+         "https://ai.azure.com/.default"
+      ),
+      base_url=f"{FOUNDRY_ENDPOINT}/applications/{AGENT_NAME}/protocols/openai",
+      default_query={"api-version": API_VERSION}
+   )
 
-try:
-    # Call the agent using responses API
-    response = client.responses.create(
-        input="제주도 2박 3일 여행 코스 추천해줘"
-    )
-    
-    print(f"Response: {response.output_text}")
-    
-except Exception as e:
-    print(f"Error: {e}")
-    print("\n🔍 Troubleshooting:")
-    print("1. Check your endpoint URL at https://ai.azure.com")
-    print("2. Verify the project name and agent name exist")
-    print("3. Ensure you're logged in: az login")
-    print("4. Confirm the agent is deployed and running")
-```
+   try:
+      # Call the agent using responses API
+      response = client.responses.create(
+         input="제주도 2박 3일 여행 코스 추천해줘"
+      )
+      
+      print(f"Response: {response.output_text}")
+      
+   except Exception as e:
+      print(f"Error: {e}")
+      print("\n🔍 Troubleshooting:")
+      print("1. Check your endpoint URL at https://ai.azure.com")
+      print("2. Verify the project name and agent name exist")
+      print("3. Ensure you're logged in: az login")
+      print("4. Confirm the agent is deployed and running")
+   ```
 
 #### 3. 엔드포인트 정보 확인
 
