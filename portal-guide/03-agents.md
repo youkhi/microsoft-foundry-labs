@@ -67,6 +67,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
 
 2. **새 에이전트 생성**
    - **+ Create agent** 또는 **New agent** 버튼을 클릭합니다.
+   - Agent name은 'ModelRouterAgent'를 입력한 후 **Create** 버튼을 클릭합니다.
    
    ![Create agent 버튼](../assets/03-02-create-agent.png)
 
@@ -94,19 +95,23 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    ```
    안녕
    ```
-   → 간단한 인사이므로 경량 모델 사용
+   → 간단한 인사이므로 경량 모델 사용  
+  
+
 
    ```
    너는 언제까지의 데이터로 학습되어있니?
    ```
-   → 모델 정보 질문, 기본 모델로 답변
-
+   → 모델 정보 질문, 기본 모델로 답변  
+     
+     
    ```
    microsoft foundry new portal 실습을 위한 실습 가이드를 만들어줘. 
    foundry models, model-router, foundry agents, foundry tools, foundry knowledge, 
    foundry control plane 등을 모두 foundry portal에서 실습하는 가이드가 필요해
    ```
    → 복잡한 문서 생성 요청이므로 고성능 모델 사용
+
    
    ![Chat 탭에서 테스트](../assets/03-05-agent-chat-test.png)
 
@@ -130,13 +135,20 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    - 성능 및 비용 분석
 
    **Tracing 활성화**를 위해서 **App Insigts 생성 및 연결**이 필요합니다.
-   **Agent Tracing**은 Foundry(New)의 **Sweden Central**에서만 가능합니다.
+   **Agent Tracing**은 Foundry(New)를 지원하는 모든 리전에서 사용 가능합니다.
+
+   - 아래 캡쳐 화면의 **Connect** 클릭
    
-   ![Traces 탭 화면 - Connect](../assets/03-08-agent-traces-connect.png)
+   ![Traces 탭 화면 - Connect](../assets/03-08-agent-traces-connect.png)  
+     
+   - 아래 캡쳐 화면의 **Create** 클릭
 
-   ![Traces 탭 화면 - Create](../assets/03-08-agent-traces-create.png)
+   ![Traces 탭 화면 - Create](../assets/03-08-agent-traces-create-revised.png)  
+  
+   - 아래 캡쳐 화면의 아무 **Conversation ID**나 클릭
 
-   ![Traces 탭 화면 - Traces](../assets/03-08-agent-traces.png)
+   ![Traces 탭 화면 - Traces](../assets/03-08-agent-traces.png)  
+
 
    ![Traces 탭 화면 - Traces - Details](../assets/03-08-agent-traces-details.png)
 
@@ -191,17 +203,15 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    - **Tools** 섹션에서 **+ Add** 버튼을 클릭합니다.
    
    - **File Search** 옵션을 선택합니다.
-   - File Search가 Tools 목록에 추가되었는지 확인합니다.
    
    ![File Search 도구 선택](../assets/03-13-filesearch-tool-selection.png)
 
 4. **파일 업로드**
 
-   - **Tools > File Search** 섹션에서 **Attach files** 버튼을 클릭합니다.
+   - [knowledge-base.json](../knowledge-base.json) 파일을 업로드한 후 **Attach**버튼을 누릅니다.
    
    ![Attach files 버튼](../assets/03-14-filesearch-attach-files.png)
    
-   - [knowledge-base.json](../knowledge-base.json) 파일을 업로드합니다.
    - 파일이 정상적으로 업로드되었는지 확인합니다.
    
    ![파일 업로드 완료](../assets/03-15-filesearch-file-uploaded.png)
