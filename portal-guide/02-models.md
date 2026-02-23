@@ -131,15 +131,8 @@ Embedding 모델은 텍스트를 벡터로 변환하여 의미적 검색 및 유
    
    ![text-embedding-3-large 모델 카드](../assets/02-09-embedding-model-card.png)
 
-3. **배포 설정**
-   ```
-   Deployment name: text-embedding-3-large
-   Model version: [최신 버전]
-   Deployment type: Standard
-   ```
-
-4. **배포 실행**
-   - **Deploy** 버튼을 클릭하여 배포합니다.
+3. **배포 실행**
+   - **Deploy(Default settings)** 버튼을 클릭하여 배포합니다.
    
    ![배포 완료 확인](../assets/02-10-embedding-deployed.png)
 
