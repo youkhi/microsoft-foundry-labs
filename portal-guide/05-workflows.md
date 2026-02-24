@@ -217,7 +217,7 @@ Instructions:
 
 1. **Preview 모드**
 
-   - **Preview** 버튼을 클릭합니다.
+   - 오른쪽 상단에 있는 **Preview** 버튼을 클릭합니다.
 
 2. **테스트 질문**
 
